@@ -6,6 +6,14 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6F0FE6EC1B82793800A83903 /* OnozOmgEditingGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0FE6EB1B82793800A83903 /* OnozOmgEditingGuideView.m */; };
+		6F3A86111B80D7AE00716C22 /* OnozOmgFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A86101B80D7AE00716C22 /* OnozOmgFace.m */; };
+		6F7B7D2D1B814D7100AB713F /* OnozOmgFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B7D2C1B814D7100AB713F /* OnozOmgFaceView.m */; };
+		6FBF83DE1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF83DD1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.m */; };
+		6FDF5E261B7E4A4B002ABBD8 /* SupportingHooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDF5E251B7E4A4B002ABBD8 /* SupportingHooks.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6FC5B99E1B7E46F100E87B8D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,7 +27,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F0FE6EA1B82793800A83903 /* OnozOmgEditingGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnozOmgEditingGuideView.h; sourceTree = "<group>"; };
+		6F0FE6EB1B82793800A83903 /* OnozOmgEditingGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnozOmgEditingGuideView.m; sourceTree = "<group>"; };
+		6F3A860F1B80D7AE00716C22 /* OnozOmgFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnozOmgFace.h; sourceTree = "<group>"; };
+		6F3A86101B80D7AE00716C22 /* OnozOmgFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnozOmgFace.m; sourceTree = "<group>"; };
+		6F7B7D011B81111C00AB713F /* Hooking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hooking.h; sourceTree = "<group>"; };
+		6F7B7D2B1B814D7100AB713F /* OnozOmgFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnozOmgFaceView.h; sourceTree = "<group>"; };
+		6F7B7D2C1B814D7100AB713F /* OnozOmgFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnozOmgFaceView.m; sourceTree = "<group>"; };
+		6F8EFC3D1B83CAC5005EA60E /* animation_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_1.png; sourceTree = "<group>"; };
+		6F8EFC3E1B83CAC5005EA60E /* animation_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_10.png; sourceTree = "<group>"; };
+		6F8EFC3F1B83CAC5005EA60E /* animation_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_11.png; sourceTree = "<group>"; };
+		6F8EFC401B83CAC5005EA60E /* animation_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_12.png; sourceTree = "<group>"; };
+		6F8EFC411B83CAC5005EA60E /* animation_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_13.png; sourceTree = "<group>"; };
+		6F8EFC421B83CAC5005EA60E /* animation_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_14.png; sourceTree = "<group>"; };
+		6F8EFC431B83CAC5005EA60E /* animation_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_15.png; sourceTree = "<group>"; };
+		6F8EFC441B83CAC5005EA60E /* animation_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_16.png; sourceTree = "<group>"; };
+		6F8EFC451B83CAC5005EA60E /* animation_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_17.png; sourceTree = "<group>"; };
+		6F8EFC461B83CAC5005EA60E /* animation_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_18.png; sourceTree = "<group>"; };
+		6F8EFC471B83CAC5005EA60E /* animation_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_19.png; sourceTree = "<group>"; };
+		6F8EFC481B83CAC5005EA60E /* animation_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_2.png; sourceTree = "<group>"; };
+		6F8EFC491B83CAC5005EA60E /* animation_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_20.png; sourceTree = "<group>"; };
+		6F8EFC4A1B83CAC5005EA60E /* animation_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_21.png; sourceTree = "<group>"; };
+		6F8EFC4B1B83CAC5005EA60E /* animation_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_22.png; sourceTree = "<group>"; };
+		6F8EFC4C1B83CAC5005EA60E /* animation_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_23.png; sourceTree = "<group>"; };
+		6F8EFC4D1B83CAC5005EA60E /* animation_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_24.png; sourceTree = "<group>"; };
+		6F8EFC4E1B83CAC5005EA60E /* animation_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_3.png; sourceTree = "<group>"; };
+		6F8EFC4F1B83CAC5005EA60E /* animation_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_4.png; sourceTree = "<group>"; };
+		6F8EFC501B83CAC5005EA60E /* animation_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_5.png; sourceTree = "<group>"; };
+		6F8EFC511B83CAC5005EA60E /* animation_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_6.png; sourceTree = "<group>"; };
+		6F8EFC521B83CAC5005EA60E /* animation_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_7.png; sourceTree = "<group>"; };
+		6F8EFC531B83CAC5005EA60E /* animation_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_8.png; sourceTree = "<group>"; };
+		6F8EFC541B83CAC5005EA60E /* animation_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation_9.png; sourceTree = "<group>"; };
+		6FBF83DC1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnozOmgAnimationImagesManager.h; sourceTree = "<group>"; };
+		6FBF83DD1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnozOmgAnimationImagesManager.m; sourceTree = "<group>"; };
 		6FC5B9A01B7E46F100E87B8D /* CustomWatchFaceTest.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CustomWatchFaceTest.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDF5E251B7E4A4B002ABBD8 /* SupportingHooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportingHooks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +75,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F8EFC3C1B83CAC5005EA60E /* Animation Images */ = {
+			isa = PBXGroup;
+			children = (
+				6F8EFC3D1B83CAC5005EA60E /* animation_1.png */,
+				6F8EFC3E1B83CAC5005EA60E /* animation_10.png */,
+				6F8EFC3F1B83CAC5005EA60E /* animation_11.png */,
+				6F8EFC401B83CAC5005EA60E /* animation_12.png */,
+				6F8EFC411B83CAC5005EA60E /* animation_13.png */,
+				6F8EFC421B83CAC5005EA60E /* animation_14.png */,
+				6F8EFC431B83CAC5005EA60E /* animation_15.png */,
+				6F8EFC441B83CAC5005EA60E /* animation_16.png */,
+				6F8EFC451B83CAC5005EA60E /* animation_17.png */,
+				6F8EFC461B83CAC5005EA60E /* animation_18.png */,
+				6F8EFC471B83CAC5005EA60E /* animation_19.png */,
+				6F8EFC481B83CAC5005EA60E /* animation_2.png */,
+				6F8EFC491B83CAC5005EA60E /* animation_20.png */,
+				6F8EFC4A1B83CAC5005EA60E /* animation_21.png */,
+				6F8EFC4B1B83CAC5005EA60E /* animation_22.png */,
+				6F8EFC4C1B83CAC5005EA60E /* animation_23.png */,
+				6F8EFC4D1B83CAC5005EA60E /* animation_24.png */,
+				6F8EFC4E1B83CAC5005EA60E /* animation_3.png */,
+				6F8EFC4F1B83CAC5005EA60E /* animation_4.png */,
+				6F8EFC501B83CAC5005EA60E /* animation_5.png */,
+				6F8EFC511B83CAC5005EA60E /* animation_6.png */,
+				6F8EFC521B83CAC5005EA60E /* animation_7.png */,
+				6F8EFC531B83CAC5005EA60E /* animation_8.png */,
+				6F8EFC541B83CAC5005EA60E /* animation_9.png */,
+			);
+			path = "Animation Images";
+			sourceTree = "<group>";
+		};
 		6FC5B9971B7E46F100E87B8D = {
 			isa = PBXGroup;
 			children = (
+				6F8EFC3C1B83CAC5005EA60E /* Animation Images */,
 				6FC5B9A21B7E46F100E87B8D /* CustomWatchFaceTest */,
 				6FC5B9A11B7E46F100E87B8D /* Products */,
 			);
@@ -52,6 +126,16 @@
 		6FC5B9A21B7E46F100E87B8D /* CustomWatchFaceTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F7B7D011B81111C00AB713F /* Hooking.h */,
+				6F3A860F1B80D7AE00716C22 /* OnozOmgFace.h */,
+				6F3A86101B80D7AE00716C22 /* OnozOmgFace.m */,
+				6F7B7D2B1B814D7100AB713F /* OnozOmgFaceView.h */,
+				6F7B7D2C1B814D7100AB713F /* OnozOmgFaceView.m */,
+				6F0FE6EA1B82793800A83903 /* OnozOmgEditingGuideView.h */,
+				6F0FE6EB1B82793800A83903 /* OnozOmgEditingGuideView.m */,
+				6FBF83DC1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.h */,
+				6FBF83DD1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.m */,
+				6FDF5E251B7E4A4B002ABBD8 /* SupportingHooks.m */,
 			);
 			path = CustomWatchFaceTest;
 			sourceTree = "<group>";
@@ -112,6 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3A86111B80D7AE00716C22 /* OnozOmgFace.m in Sources */,
+				6FDF5E261B7E4A4B002ABBD8 /* SupportingHooks.m in Sources */,
+				6FBF83DE1B83A6CE00A50138 /* OnozOmgAnimationImagesManager.m in Sources */,
+				6F0FE6EC1B82793800A83903 /* OnozOmgEditingGuideView.m in Sources */,
+				6F7B7D2D1B814D7100AB713F /* OnozOmgFaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +285,104 @@
 		6FC5B9AA1B7E46F100E87B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__ANIMATION,
+					img1,
+					"\"$(SRCROOT)/Animation Images/animation_1.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img2,
+					"\"$(SRCROOT)/Animation Images/animation_2.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img3,
+					"\"$(SRCROOT)/Animation Images/animation_3.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img4,
+					"\"$(SRCROOT)/Animation Images/animation_4.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img5,
+					"\"$(SRCROOT)/Animation Images/animation_5.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img6,
+					"\"$(SRCROOT)/Animation Images/animation_6.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img7,
+					"\"$(SRCROOT)/Animation Images/animation_7.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img8,
+					"\"$(SRCROOT)/Animation Images/animation_8.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img9,
+					"\"$(SRCROOT)/Animation Images/animation_9.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img10,
+					"\"$(SRCROOT)/Animation Images/animation_10.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img11,
+					"\"$(SRCROOT)/Animation Images/animation_11.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img12,
+					"\"$(SRCROOT)/Animation Images/animation_12.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img13,
+					"\"$(SRCROOT)/Animation Images/animation_13.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img14,
+					"\"$(SRCROOT)/Animation Images/animation_14.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img15,
+					"\"$(SRCROOT)/Animation Images/animation_15.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img16,
+					"\"$(SRCROOT)/Animation Images/animation_16.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img17,
+					"\"$(SRCROOT)/Animation Images/animation_17.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img18,
+					"\"$(SRCROOT)/Animation Images/animation_18.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img19,
+					"\"$(SRCROOT)/Animation Images/animation_19.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img20,
+					"\"$(SRCROOT)/Animation Images/animation_20.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img21,
+					"\"$(SRCROOT)/Animation Images/animation_21.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img22,
+					"\"$(SRCROOT)/Animation Images/animation_22.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img23,
+					"\"$(SRCROOT)/Animation Images/animation_23.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img24,
+					"\"$(SRCROOT)/Animation Images/animation_24.png\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -204,6 +391,104 @@
 		6FC5B9AB1B7E46F100E87B8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__ANIMATION,
+					img1,
+					"\"$(SRCROOT)/Animation Images/animation_1.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img2,
+					"\"$(SRCROOT)/Animation Images/animation_2.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img3,
+					"\"$(SRCROOT)/Animation Images/animation_3.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img4,
+					"\"$(SRCROOT)/Animation Images/animation_4.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img5,
+					"\"$(SRCROOT)/Animation Images/animation_5.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img6,
+					"\"$(SRCROOT)/Animation Images/animation_6.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img7,
+					"\"$(SRCROOT)/Animation Images/animation_7.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img8,
+					"\"$(SRCROOT)/Animation Images/animation_8.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img9,
+					"\"$(SRCROOT)/Animation Images/animation_9.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img10,
+					"\"$(SRCROOT)/Animation Images/animation_10.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img11,
+					"\"$(SRCROOT)/Animation Images/animation_11.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img12,
+					"\"$(SRCROOT)/Animation Images/animation_12.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img13,
+					"\"$(SRCROOT)/Animation Images/animation_13.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img14,
+					"\"$(SRCROOT)/Animation Images/animation_14.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img15,
+					"\"$(SRCROOT)/Animation Images/animation_15.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img16,
+					"\"$(SRCROOT)/Animation Images/animation_16.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img17,
+					"\"$(SRCROOT)/Animation Images/animation_17.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img18,
+					"\"$(SRCROOT)/Animation Images/animation_18.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img19,
+					"\"$(SRCROOT)/Animation Images/animation_19.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img20,
+					"\"$(SRCROOT)/Animation Images/animation_20.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img21,
+					"\"$(SRCROOT)/Animation Images/animation_21.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img22,
+					"\"$(SRCROOT)/Animation Images/animation_22.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img23,
+					"\"$(SRCROOT)/Animation Images/animation_23.png\"",
+					"-sectcreate",
+					__ANIMATION,
+					img24,
+					"\"$(SRCROOT)/Animation Images/animation_24.png\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
